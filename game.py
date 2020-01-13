@@ -1,2 +1,4 @@
 def navigate(map,direction,current_position):
-    return 2
+    if map[current_position][direction] != 0:
+        next_position = map[current_position][direction]
+    return next_position
