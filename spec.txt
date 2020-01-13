@@ -1,1 +1,4 @@
 Text Adventure Game
+
+A Function which takes parameter as map,direction user gave,current position
+return the next position
